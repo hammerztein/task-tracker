@@ -14,7 +14,7 @@ const createWindow = () => {
 	});
 
 	// Main window HTML file
-	mainWindow.loadFile(path.join(__dirname, 'frontend', 'index.html'));
+	mainWindow.loadFile(path.join(__dirname, 'frontend', 'html', 'index.html'));
 
 	// Open developer tools in dev mode
 	isDev
